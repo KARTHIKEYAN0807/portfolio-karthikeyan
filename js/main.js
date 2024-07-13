@@ -115,3 +115,8 @@
     
 })(jQuery);
 
+const fadeOut= () => {
+    const loadWrapper = document.querySelector('.lds-hourglass');
+    loadWrapper.classList.add('fade');
+}
+window.addEventListener('load', fadeOut);
